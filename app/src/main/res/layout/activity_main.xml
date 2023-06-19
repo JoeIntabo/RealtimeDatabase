@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="100sp"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <EditText
+        android:id="@+id/edtfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="30sp"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="30sp"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:hint="First Name"/>
+
+    <EditText
+        android:id="@+id/edtlastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20sp"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textAlignment="center"
+        android:inputType="text"
+       android:hint="Last Name"/>
+
+    <EditText
+        android:id="@+id/edtage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20sp"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textAlignment="center"
+        android:hint="Age"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:hint="Username"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="70sp"
+        android:textSize="20sp"
+        android:layout_marginRight="70sp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
+</LinearLayout>
